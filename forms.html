@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+</head>
+<body>
+    <form method="post">
+        <label>Name</label>
+        <input type="text" name="username"></br>
+        <label>Password</label>
+        <input type="password" name="userpassword"><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br>
+        <label>Hobbies</label>
+        <input type="checkbox" name="hobbies" value="Playing Cricket">Playing Cricket
+        <input type="checkbox" name="hobbies" value="BGMI">BGMI<br>
+        <label>Color</label>
+        <input type="color"><br>
+        <label>Date & Time</label>
+        <input type="datetime-local"><br>
+        <label>Date</label>
+        <input type="date"><br>
+        <label>Time</label>
+        <input type="time"><br>
+        <label>Month</label>
+        <input type="month"><br>
+        <label>Number</label>
+        <input type="number"><br>
+        <label>Range</label>
+        <input type="range"><br>
+        <label>Email</label>
+        <input type="email"><br>
+        <label>Tel</label>
+        <input type="tel" pattern="[6-9]{1} {0-9}[9]"><br>
+        <label>Select City</label>
+        <select name="city">
+            <option value="Virar">Virar</option>
+            <option value="Vasai">Vasai</option>
+        </select><br>
+        <label>Comments</label>
+        <textarea name="commentbox"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
